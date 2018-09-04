@@ -4,7 +4,8 @@ import If from '../template/if'
 export default props => (
     <If test={!props.hide}>
         <button className={'btn btn-' + props.style}
-            onClick={props.onClick}>
+            onClick={props.onClick}
+            style={{float: `${props.float ? 'right' : ''}`}}>
              <i className={'fa fa-' + props.icon}></i>
         </button>
     </If>       

@@ -36,11 +36,11 @@ class TodoForm extends Component{
                         onKeyUp={this.keyHandler}></input>
                 </Grid>
                 <Grid cols='12 3 2'>
-                    <IconButton style='primary btnForm' icon='plus'
+                    <IconButton style='primary' icon='plus'
                         onClick={() => add(description)}></IconButton>
-                    <IconButton style='info btnForm' icon='search' 
+                    <IconButton style='info' icon='search' 
                         onClick={search}></IconButton>
-                    <IconButton  style='default btnForm' icon='close'
+                    <IconButton  style='default' icon='close'
                         onClick={() => clear()}></IconButton>
                 </Grid>
             </div>    

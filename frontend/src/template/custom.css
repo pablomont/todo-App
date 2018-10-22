@@ -2,10 +2,6 @@
     margin-right: 5px;
 }
 
-.btnForm{
-    margin: 5px;
-}
-
 .markedAsDone{
     text-decoration: line-through;
     color: #777;
@@ -15,6 +11,3 @@
     width: 105px;
 }
 
-.todoForm{
-    padding-bottom: 60px;
-}
